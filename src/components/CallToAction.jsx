@@ -19,12 +19,12 @@ const CallToAction = () => {
 				className="tm_talk bg_image_props"
 				style={{
 					backgroundImage: `url(${
-						process.env.PUBLIC_URL + "img/callto-action/2.jpg"
+						process.env.PUBLIC_URL + "/img/callto-action/2.jpg"
 					})`,
 				}}
 			>
 				<div className="shape">
-					<img className="svg" src="/img/svg/paper.svg" alt="partners brand" />
+					<img className="svg" src="/site-testing/img/svg/paper.svg" alt="partners brand" />
 				</div>
 				{/* End shape */}
 				
@@ -64,7 +64,7 @@ const CallToAction = () => {
 			>
 				<div className="tm_mobalbox_contact">
 					<button className="close-modal" onClick={toggleModalOne}>
-						<img src="/img/svg/cancel.svg" alt="close icon" />
+						<img src="/site-testing/img/svg/cancel.svg" alt="close icon" />
 					</button>
 					{/* End close icon */}
 					

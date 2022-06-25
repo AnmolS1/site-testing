@@ -36,7 +36,7 @@ export default function ScrollToTop() {
           data-aos="fade-left"
           data-aos-duration="1200"
         >
-          <img src="/img/arrow-up.svg" alt="scroll up" />
+          <img src="/site-testing/img/arrow-up.svg" alt="scroll up" />
         </div>
       )}
     </>

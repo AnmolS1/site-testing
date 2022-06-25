@@ -13,12 +13,12 @@ const About = () => {
 								data-aos="fade-up"
 								data-aos-duration="1200"
 							>
-								<img src="/img/placeholders/1-1.jpg" alt="placeholder" />
+								<img src="/site-testing/img/placeholders/1-1.jpg" alt="placeholder" />
 								<div
 									className="main"
 									style={{
 										backgroundImage: `url(${
-											process.env.PUBLIC_URL + "img/about/1.jpg"
+											process.env.PUBLIC_URL + "/img/about/1.jpg"
 										})`,
 									}}
 								></div>

@@ -30,7 +30,7 @@ export default function TestimonialTwo() {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/about/1.jpg"
+                      process.env.PUBLIC_URL + "/img/about/1.jpg"
                     })`,
                   }}
                 ></div>
@@ -62,7 +62,7 @@ export default function TestimonialTwo() {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/about/2.jpg"
+                      process.env.PUBLIC_URL + "/img/about/2.jpg"
                     })`,
                   }}
                 ></div>
@@ -94,7 +94,7 @@ export default function TestimonialTwo() {
                   className="main"
                   style={{
                     backgroundImage: `url(${
-                      process.env.PUBLIC_URL + "img/about/3.jpg"
+                      process.env.PUBLIC_URL + "/img/about/3.jpg"
                     })`,
                   }}
                 ></div>

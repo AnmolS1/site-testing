@@ -33,12 +33,12 @@ const NewsTwo = () => {
               <li data-aos="fade-right" data-aos-duration="1200">
                 <div className="list_inner">
                   <div className="image" onClick={toggleModalOne}>
-                    <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                    <img src="/site-testing/img/placeholders/4-3.jpg" alt="thumb" />
                     <div
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/4.jpg"
+                          process.env.PUBLIC_URL + "/img/news/4.jpg"
                         })`,
                       }}
                     ></div>
@@ -66,18 +66,18 @@ const NewsTwo = () => {
                   >
                     <div className="tm_modalbox_news">
                       <button className="close-modal" onClick={toggleModalOne}>
-                        <img src="/img/svg/cancel.svg" alt="close icon" />
+                        <img src="/site-testing/img/svg/cancel.svg" alt="close icon" />
                       </button>
                       {/* End close icon */}
                       <div className="box_inner">
                         <div className="description_wrap scrollable">
                           <div className="image">
-                            <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                            <img src="/site-testing/img/placeholders/4-3.jpg" alt="thumb" />
                             <div
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/4.jpg"
+                                  process.env.PUBLIC_URL + "/img/news/4.jpg"
                                 })`,
                               }}
                             ></div>
@@ -165,12 +165,12 @@ const NewsTwo = () => {
               >
                 <div className="list_inner">
                   <div className="image" onClick={toggleModalTwo}>
-                    <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                    <img src="/site-testing/img/placeholders/4-3.jpg" alt="thumb" />
                     <div
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/9.jpg"
+                          process.env.PUBLIC_URL + "/img/news/9.jpg"
                         })`,
                       }}
                     ></div>
@@ -198,18 +198,18 @@ const NewsTwo = () => {
                   >
                     <div className="tm_modalbox_news">
                       <button className="close-modal" onClick={toggleModalTwo}>
-                        <img src="/img/svg/cancel.svg" alt="close icon" />
+                        <img src="/site-testing/img/svg/cancel.svg" alt="close icon" />
                       </button>
                       {/* End close modal */}
                       <div className="box_inner">
                         <div className="description_wrap scrollable">
                           <div className="image">
-                            <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                            <img src="/site-testing/img/placeholders/4-3.jpg" alt="thumb" />
                             <div
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/9.jpg"
+                                  process.env.PUBLIC_URL + "/img/news/9.jpg"
                                 })`,
                               }}
                             ></div>
@@ -296,12 +296,12 @@ const NewsTwo = () => {
               >
                 <div className="list_inner">
                   <div className="image" onClick={toggleModalThree}>
-                    <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                    <img src="/site-testing/img/placeholders/4-3.jpg" alt="thumb" />
                     <div
                       className="main"
                       style={{
                         backgroundImage: `url(${
-                          process.env.PUBLIC_URL + "img/news/8.jpg"
+                          process.env.PUBLIC_URL + "/img/news/8.jpg"
                         })`,
                       }}
                     ></div>
@@ -332,18 +332,18 @@ const NewsTwo = () => {
                         className="close-modal"
                         onClick={toggleModalThree}
                       >
-                        <img src="/img/svg/cancel.svg" alt="close icon" />
+                        <img src="/site-testing/img/svg/cancel.svg" alt="close icon" />
                       </button>
                       {/* END CLOSE MODAL */}
                       <div className="box_inner">
                         <div className="description_wrap scrollable">
                           <div className="image">
-                            <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                            <img src="/site-testing/img/placeholders/4-3.jpg" alt="thumb" />
                             <div
                               className="main"
                               style={{
                                 backgroundImage: `url(${
-                                  process.env.PUBLIC_URL + "img/news/8.jpg"
+                                  process.env.PUBLIC_URL + "/img/news/8.jpg"
                                 })`,
                               }}
                             ></div>

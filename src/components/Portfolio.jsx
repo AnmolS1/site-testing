@@ -157,9 +157,9 @@ const Portfolio = () => {
                               >
                                 <div className="inner">
                                   <div className="entry tm_portfolio_animation_wrap">
-                                    <a href={`/img/portfolio/${item.img}.jpg`}>
+                                    <a href={`/site-testing/img/portfolio/${item.img}.jpg`}>
                                       <img
-                                        src={`/img/portfolio/${item.img}.jpg`}
+                                        src={`/site-testing/img/portfolio/${item.img}.jpg`}
                                         alt={item.meta}
                                       />
                                     </a>

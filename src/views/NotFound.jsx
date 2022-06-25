@@ -16,7 +16,7 @@ const NotFound = () => {
           <h1>404!</h1>
           <p>The page you are looking for could not be found.</p>
 
-          <Link className="white-fill-bg btn-outline" to="/">
+          <Link className="white-fill-bg btn-outline" to="/site-testing/">
             BACK TO HOME
           </Link>
           {/* End purchase_button */}
