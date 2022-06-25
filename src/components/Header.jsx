@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="shane_tm_topbar">
+      <div className="tm_topbar">
         <div className={navbar ? "topbar_inner opened" : "topbar_inner"}>
           <div className="logo">
             <NavLink to="/">
@@ -55,10 +55,10 @@ const Header = () => {
           {/* End menu */}
         </div>
       </div>
-      {/* End shane_tm_topbar */}
+      {/* End tm_topbar */}
 
       {/* Start shane mobile menu */}
-      <div className="shane_tm_mobile_menu">
+      <div className="tm_mobile_menu">
         <div className="topbar_inner">
           <div className="container bigger">
             <div className="topbar_in">

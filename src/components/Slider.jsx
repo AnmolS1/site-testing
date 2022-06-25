@@ -5,7 +5,7 @@ import TextLoop from "react-text-loop";
 const Slider = () => {
   return (
     <div className="slider-four">
-      <div className="shane_tm_hero" id="home" data-style="one">
+      <div className="tm_hero" id="home" data-style="one">
         <div className="frame-layout__particles">
           <Particles
             id="tsparticles"

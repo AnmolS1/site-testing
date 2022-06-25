@@ -3,8 +3,8 @@ import React from "react";
 const SkillsTwo = () => {
   return (
     <>
-      <div className="shane_tm_section">
-        <div className="shane_tm_skills">
+      <div className="tm_section">
+        <div className="tm_skills">
           <div className="container">
             <div className="skills_inner">
               <div
@@ -12,7 +12,7 @@ const SkillsTwo = () => {
                 data-aos="fade-right"
                 data-aos-duration="1200"
               >
-                <div className="shane_tm_title">
+                <div className="tm_title">
                   <h3>I have high skills in developing and programming</h3>
                 </div>
                 <div className="text">

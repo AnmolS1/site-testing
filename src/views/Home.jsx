@@ -26,8 +26,8 @@ const HomeTwo = () => {
 			<Video />
 			{/* End Video Section */}
 			
-			<div className="shane_tm_section">
-				<div className="shane_tm_partners">
+			<div className="tm_section">
+				<div className="tm_partners">
 					<div className="container">
 						<div className="partners_inner">
 							<Brand />
@@ -35,10 +35,10 @@ const HomeTwo = () => {
 					</div>
 				</div>
 			</div>
-			{/* End shane_tm_partners */}
+			{/* End tm_partners */}
 			
-			<div className="shane_tm_section">
-				<div className="shane_tm_testimonials">
+			<div className="tm_section">
+				<div className="tm_testimonials">
 					<div className="container">
 						<div className="testimonials_inner">
 							<div
@@ -46,7 +46,7 @@ const HomeTwo = () => {
 								data-aos="fade-right"
 								data-aos-duration="1200"
 							>
-								<div className="shane_tm_title">
+								<div className="tm_title">
 									<span>Testimonials</span>
 									<h3>What clients say about my portfolio template</h3>
 								</div>

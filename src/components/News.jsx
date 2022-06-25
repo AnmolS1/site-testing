@@ -20,14 +20,14 @@ const NewsTwo = () => {
   }
 
   return (
-    <div className="shane_tm_section" id="news">
-      <div className="shane_tm_news">
+    <div className="tm_section" id="news">
+      <div className="tm_news">
         <div className="container">
-          <div className="shane_tm_title">
+          <div className="tm_title">
             <span>News</span>
             <h3>Latest News</h3>
           </div>
-          {/* End shane_tm_title */}
+          {/* End tm_title */}
           <div className="news_list">
             <ul>
               <li data-aos="fade-right" data-aos-duration="1200">
@@ -64,7 +64,7 @@ const NewsTwo = () => {
                     overlayClassName="custom-overlay"
                     closeTimeoutMS={500}
                   >
-                    <div className="shane_tm_modalbox_news">
+                    <div className="tm_modalbox_news">
                       <button className="close-modal" onClick={toggleModalOne}>
                         <img src="/img/svg/cancel.svg" alt="close icon" />
                       </button>
@@ -196,7 +196,7 @@ const NewsTwo = () => {
                     overlayClassName="custom-overlay"
                     closeTimeoutMS={500}
                   >
-                    <div className="shane_tm_modalbox_news">
+                    <div className="tm_modalbox_news">
                       <button className="close-modal" onClick={toggleModalTwo}>
                         <img src="/img/svg/cancel.svg" alt="close icon" />
                       </button>
@@ -327,7 +327,7 @@ const NewsTwo = () => {
                     overlayClassName="custom-overlay"
                     closeTimeoutMS={500}
                   >
-                    <div className="shane_tm_modalbox_news">
+                    <div className="tm_modalbox_news">
                       <button
                         className="close-modal"
                         onClick={toggleModalThree}

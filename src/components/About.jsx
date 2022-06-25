@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
 	return (
 		<>
-		<div className="shane_tm_section" id="about">
-			<div className="shane_tm_about">
+		<div className="tm_section" id="about">
+			<div className="tm_about">
 				<div className="container">
 					<div className="about_inner">
 						<div className="left">
@@ -29,7 +29,7 @@ const About = () => {
 						
 						<div className="right">
 							<div
-								className="shane_tm_title"
+								className="tm_title"
 								data-aos="fade-up"
 								data-aos-duration="1200"
 							>
@@ -58,7 +58,7 @@ const About = () => {
 								</p>
 							</div>
 							<div
-								className="shane_tm_button"
+								className="tm_button"
 								data-aos="fade-up"
 								data-aos-duration="1200"
 							>

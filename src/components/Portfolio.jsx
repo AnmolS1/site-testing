@@ -119,12 +119,12 @@ const tabListContent = [
 
 const Portfolio = () => {
   return (
-    <div className="shane_tm_section" id="portfolio">
+    <div className="tm_section" id="portfolio">
       <SimpleReactLightbox>
-        <div className="shane_tm_portfolio">
+        <div className="tm_portfolio">
           <div className="container">
             <div className="positon-relative">
-              <div className="shane_tm_title">
+              <div className="tm_title">
                 <div className="title_flex">
                   <div className="left">
                     <span>Portfolio</span>
@@ -132,7 +132,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              {/* End shane_tm_title */}
+              {/* End tm_title */}
 
               <div className="portfolio_filter">
                 <Tabs>
@@ -156,7 +156,7 @@ const Portfolio = () => {
                                 data-aos-delay={item.delayAnimation}
                               >
                                 <div className="inner">
-                                  <div className="entry shane_tm_portfolio_animation_wrap">
+                                  <div className="entry tm_portfolio_animation_wrap">
                                     <a href={`/img/portfolio/${item.img}.jpg`}>
                                       <img
                                         src={`/img/portfolio/${item.img}.jpg`}

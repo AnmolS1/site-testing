@@ -14,9 +14,9 @@ const CallToAction = () => {
 	}
 	
 	return (
-		<div className="shane_tm_section" id="contact">
+		<div className="tm_section" id="contact">
 			<div
-				className="shane_tm_talk bg_image_props"
+				className="tm_talk bg_image_props"
 				style={{
 					backgroundImage: `url(${
 						process.env.PUBLIC_URL + "img/callto-action/2.jpg"
@@ -62,7 +62,7 @@ const CallToAction = () => {
 				overlayClassName="custom-overlay"
 				closeTimeoutMS={500}
 			>
-				<div className="shane_tm_mobalbox_contact">
+				<div className="tm_mobalbox_contact">
 					<button className="close-modal" onClick={toggleModalOne}>
 						<img src="/img/svg/cancel.svg" alt="close icon" />
 					</button>

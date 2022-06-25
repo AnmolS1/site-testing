@@ -4,8 +4,8 @@ import ModalVideo from "react-modal-video";
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="shane_tm_section">
-      <div className="shane_tm_business_video">
+    <div className="tm_section">
+      <div className="tm_business_video">
         <div className="bg">
           <div
             className="image jarallax"
@@ -42,7 +42,7 @@ const Video = () => {
           </h3>
 
           <div
-            className="shane_tm_video_button"
+            className="tm_video_button"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="100"
@@ -54,9 +54,9 @@ const Video = () => {
         </div>
         {/* End .content */}
       </div>
-      {/* End .shane_tm_business_video */}
+      {/* End .tm_business_video */}
     </div>
-    // End .shane_tm_section
+    // End .tm_section
   );
 };
 
